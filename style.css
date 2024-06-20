@@ -5,7 +5,9 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
   }
+  
   
   body {
     padding: 40px;

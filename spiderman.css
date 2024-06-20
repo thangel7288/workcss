@@ -1,0 +1,56 @@
+.contenedor{
+    width: 350px;
+    height:500px;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 2px 8px rgb(29, 28, 28);
+  }
+  
+  .spiderman {
+    padding: 5;
+    text-align: center;
+  }
+  
+  
+  .historia {
+    color: #000000;
+    text-align: center;
+  }
+  
+  img {
+    width: 350px;
+    height: 210px;
+    overflow: hidden;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .spiderman {
+    text-align: center;
+    color: red;
+  }
+  
+  
+  
+  button {
+    font-family: serif;
+    border-radius: 3px;
+    height: 38px;
+    width: 130px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgb(226, 1, 1);
+    left: 100px;
+    top: 15px;
+  }
+  .goku {
+    filter: drop-shadow(10px 10px 50px yellow);
+    position: relative;
+    left: 42%;
+    top: 50px;
+    width: 300px;
+    height: auto;
+  }

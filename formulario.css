@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px auto;
+  background-color: #e0f7fa; 
+}
+
+.box {
+  display: block;
+  background: #ffccbc; 
+  width: 100px;
+  height: 100px;
+  color: #004d40; 
+  text-align: center;
+  line-height: 100px;
+  margin: 20px auto;
+  padding: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.container {
+  margin-left: -5px;
+  padding: 20px 0;
+  border: 3px solid #ffab91; 
+}
+
+.box:nth-of-type(2n+1) {
+  background: #4db6ac; 
+}
+
+.enlace {
+  display: block;
+  background: #00796b; /* Color de fondo cambiado */
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-bottom: 3px solid #fff;
+  margin: 15px auto;
+  width: 300px;
+  border: 1px solid #004d40; 
+}
+
+.enlace:visited {
+  background: #ff7043; 
+}
+
+.enlace:link {
+  background: #00796b; 
+  color: #004d40; 
+}
+
+.enlace:hover {
+  padding: 40px 20px;
+  transition: 0.3s;
+}
+
+.enlace:active {
+  background: #d32f2f; 
+  color: #fff;
+}
+
+.form {
+  width: 80%;
+  margin: 30px auto;
+  background: #e1f5fe; 
+  box-shadow: 0 0 50px 0 #0007;
+  padding: 30px;
+}
+
+.form__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  margin: 3px;
+}
+
+input:focus {
+  background: #ffecb3;
+}
+
+input::placeholder {
+  color: #004d40; 
+}
+
+input[type="checkbox"]:checked + label {
+  color: #00796b; 
+}
+
+.event {
+  display: inline-block;
+  margin: 30px 0 0 192px;
+  background: #d32f2f; 
+  color: #000;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.event:active {
+  padding: 50px;
+  transition: 0.5s;
+}
+
+#objetivo:target {
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h3:not(.contacto):not(:hover) {
+  color: #004d40;
+ } /* Color del tex

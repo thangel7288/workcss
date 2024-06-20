@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 20px auto;
+    background-color: #e0f7fa;
+  }
+  
+  
+  .box {
+    display: block;
+    background: #ff3c00; 
+    width: 100px;
+    height: 100px;
+    color: #004d40; 
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+    padding: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .container {
+    margin-left: -5px;
+    padding: 20px 0;
+    border: 3px solid #3eec09; 
+  }
+  
+  .box:nth-of-type(2n+1) {
+    background: #00f3db; 
+  }
